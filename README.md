@@ -1,0 +1,1 @@
+I wanted to make a proper assembler for the [Hack Computer](https://github.com/tangerineey/nand-to-tetris-I) and I stumbled across a wonderful book written by Robert Nystrom called [Crafting Interpeters](https://craftinginterpreters.com/).
