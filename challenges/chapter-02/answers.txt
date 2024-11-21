@@ -1,0 +1,15 @@
+1. I chose Go as my language to investigate and found the files token.go
+and scanner.go that I think act as the lexer and parser. It seems that these
+are written in go without Yacc or Lex. Its pretty cool that its written
+in its own language and showcases how you could bootstrap your compiler.
+
+2. Because if you have dynamic typing, the machine code will have many 
+branches and possible values. So the JIT-ed code will have to make 
+assumptions and about types by monitoring them. And if the types ever do not
+match then the performance gain is lost.
+
+Reference: https://langdev.stackexchange.com/questions/981/what-are-the-advantages-and-disadvantages-of-just-in-time-compilation
+
+3. I could not find a solid answer, but I assume its for interactive 
+development when using LISP and to increase portability as you can just use
+the interpreter instead of worrying about specific platforms.
